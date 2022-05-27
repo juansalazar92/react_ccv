@@ -1,7 +1,7 @@
 import Foto from './imagenes/profile.jpg';
-import Diploma1 from '.imagenes/Diploma.jpg';
-import Diploma2 from '.imagenes/Diploma1.jpg';
-import Diploma3 from '.imagenes/Diploma3.jpg';
+import Diploma1 from './imagenes/diploma.jpg';
+import Diploma2 from './imagenes/diploma2.jpg';
+import Diploma3 from './imagenes/diploma3.jpg';
 import './App.css';
 
 function App() {
@@ -33,11 +33,11 @@ function App() {
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
         INFORMACIÓN PERSONAL
       </button>
     </h2>
-    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
       <div class="accordion-body">
         <strong>Nombres y Apellidos: </strong> Juan Sebastian Salazar Garcia<br/>
         <strong>Cedula: </strong> 1002590582<br/>
@@ -50,11 +50,11 @@ function App() {
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
         FORMACION ACADEMICA
       </button>
     </h2>
-    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
       <div class="accordion-body">
         <strong>Primarios</strong> <br/>
                     Instituto chipre sede primaria Julio Zuluaga<br/>
@@ -76,17 +76,16 @@ function App() {
                     Ingeniería de Sistemas y Telecomunicaciones<br/>
                     Cursando V Semestre<br/>
                     Manizales<br/>
-
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
         EXPERIENCIA LABORAL
       </button>
     </h2>
-    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
       <div class="accordion-body">
       <strong>Empresa: </strong> Carvajal<br/>
         <strong>Cargo: </strong> Tecnico Print <br/>
